@@ -1,0 +1,23 @@
+{{> nav }}
+<div class='container mt-5'>
+    <div class='row'>
+        <div class='col'>
+            <form id="data">
+                <div class='mb-3'>
+                    <label class='form-label'>Producto</label>
+                    <input class='form-control' id='nombre' />
+                </div>
+                <div class='mb-3'>
+                    <label class='form-label'>Precio</label>
+                    <input class='form-control' id='precio' />
+                </div>
+                <div class='mb-3'>
+                    <label class='form-label'>Thumbnail</label>
+                    <input class='form-control' id='urlImagen' />
+                </div>
+                <button type='submit' class='btn btn-primary' onclick='saveProduct()'>Guardar</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
